@@ -77,6 +77,8 @@ body {
   font-size: 1rem;
   font-weight: bold;
   color: white;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 /* products */
@@ -84,36 +86,50 @@ body {
 .section3 {
   background-color: white;
   height: 30rem;
-}
-
-.products {
   display: flex;
   justify-content: space-around;
-  position: relative;
-  top: 3rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
+.pictures {
+  display: flex;
+  position: relative;
+  top: 2rem;
+}
 
-.pen {
-  width: 47%;
-  height: 9rem;
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14rem;
+  height: 11rem;
+  border: solid black 0.2rem;
+  margin: 0rem 1rem;
 }
 
 .names {
-  position: relative;
-  top: 2rem;
   display: flex;
-  justify-content: space-around;
+  background-color: black;
+  color: white;
+
 }
 
-.titles {
-  color: white;
-  background-color: black;
-  width: 9.4rem;
-  height: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+#pen {
+  width: 9rem;
+  height: 7rem;
+
+}
+
+#watch {
+  width: 9rem;
+  height: 9rem;
+}
+
+#glasses {
+  width: 9rem;
+  height: 6rem;
 }
 
 
