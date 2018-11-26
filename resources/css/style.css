@@ -1,0 +1,52 @@
+/* universal styles */
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: helvetica;
+  background-color: black;
+}
+
+
+
+/* header */
+.header {
+  color: white;
+  display: flex;
+  width: 53.3rem;
+  justify-content: center;
+
+}
+
+#logo {
+  height: 1.5rem;
+  display: inline-flex;
+  position: relative;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  top: 1.66rem
+
+}
+
+#name {
+  font-size: 1rem;
+  position: relative;
+  display: inline-flex;
+  padding-top: 1.66rem;
+  padding-bottom: 1.66rem
+}
+
+/* navigation */
+
+.new-arrival {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  height: 25rem;
+  background-size: cover;
+}
+
+
+/* products */
+
+
+/* footer */
