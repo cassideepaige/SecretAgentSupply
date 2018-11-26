@@ -14,7 +14,7 @@ body {
 .header {
   color: white;
   display: flex;
-  width: 53.3rem;
+  width: 40rem;
   justify-content: center;
 
 }
@@ -37,16 +37,54 @@ body {
   padding-bottom: 1.66rem
 }
 
-/* navigation */
-
+/* second section */
 .new-arrival {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
   height: 25rem;
   background-size: cover;
 }
 
+#container {
+  background-color: black;
+  color: white;
+  width: 23rem;
+  height: 10rem;
+  position: relative;
+  top: 9rem;
+  left: 10rem;
+  font-weight: bold;
+}
+
+#new {
+  font-size: 1rem;
+  padding-left: 2rem;
+  position: relative;
+  top: 1.75rem;
+}
+
+#sports {
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+/* navigation */
+.navigation {
+  background-color: firebrick;
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
 
 /* products */
+.pictures {
+  display: inline-flex;
+  height: 9rem;
+  width: 9rem;
+}
 
 
 /* footer */
