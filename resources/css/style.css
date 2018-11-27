@@ -8,8 +8,6 @@ body {
   background-color: black;
 }
 
-
-
 /* header */
 .header {
   color: white;
@@ -103,18 +101,30 @@ body {
   align-items: center;
   justify-content: center;
   width: 14rem;
-  height: 11rem;
+  height: 10rem;
   border: solid black 0.2rem;
   margin: 0rem 1rem;
 }
 
-.names {
-  display: flex;
+.title {
   background-color: black;
   color: white;
-
+  display: inline-flex;
+  position: relative;
+  bottom: 5rem;
+  width: 14.5rem;
+  justify-content: center;
+  align-content: center;
 }
 
+.names {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  position: relative;
+  bottom: 13rem;
+}
 
 #pen {
   width: 9rem;
@@ -132,11 +142,58 @@ body {
   height: 6rem;
 }
 
+/* second half */
+
+.info {
+  position: relative;
+  bottom: 15rem;
+  display: flex;
+  justify-content: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#location,
+#hour {
+  background-color: black;
+  color: white;
+  display: inline-flex;
+  padding-left: 2rem;
+  text-align: left;
+  width: 15rem;
+}
+
+#location {
+  position: relative;
+  right: 7rem;
+}
+
+#hour {
+  position: relative;
+  left: 7rem;
+}
+
+.descriptions {
+  display: flex;
+  position: relative;
+  bottom: 16rem;
+  justify-content: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#description1 {
+  position: relative;
+  right: 16.5rem;
+}
+
+#description2 {
+  position: relative;
+  left: 5rem;
+}
 
 /* footer */
 .footer {
-  background-color: black;
-  height: 5rem;
   color: white;
   display: flex;
   align-items: center;
