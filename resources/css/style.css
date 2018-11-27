@@ -160,17 +160,17 @@ body {
   display: inline-flex;
   padding-left: 2rem;
   text-align: left;
-  width: 15rem;
+  width: 12.5rem;
 }
 
 #location {
   position: relative;
-  right: 7rem;
+  right: 9rem;
 }
 
 #hour {
   position: relative;
-  left: 7rem;
+  left: 9rem;
 }
 
 .descriptions {
@@ -184,20 +184,27 @@ body {
 
 #description1 {
   position: relative;
-  right: 16.5rem;
+  right: 16rem;
 }
 
 #description2 {
   position: relative;
-  left: 5rem;
+  left: 7rem;
 }
 
 /* footer */
 .footer {
   color: white;
-  display: flex;
-  align-items: center;
-  text-align: left;
   position: relative;
   left: 10rem;
+  height: 5rem;
+
+}
+
+#footer {
+  text-align: left;
+  display: flex;
+  align-content: center;
+  position: relative;
+  bottom: 2.5rem;
 }
